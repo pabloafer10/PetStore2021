@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="petStore.Pet" tests="4" skipped="0" failures="0" errors="0" timestamp="2021-08-15T16:25:58" hostname="DESKTOP-4VFA2O9" time="8.581">
+  <properties/>
+  <testcase name="alterarPet" classname="petStore.Pet" time="5.201"/>
+  <testcase name="consultarPet" classname="petStore.Pet" time="1.234"/>
+  <testcase name="excluirPet" classname="petStore.Pet" time="1.074"/>
+  <testcase name="incluirPet" classname="petStore.Pet" time="1.051"/>
+  <system-out><![CDATA[Request method:	PUT
+Request URI:	https://petstore.swagger.io/v2/pet
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": 1976110810,
+    "category": {
+        "id": 1,
+        "name": "MIGUEL10"
+    },
+    "name": "Toto",
+    "photoUrls": [
+        "string"
+    ],
+    "tags": [
+        {
+            "id": 2021,
+            "name": "pqp"
+        }
+    ],
+    "status": "sold"
+}
+HTTP/1.1 200 OK
+Date: Sun, 15 Aug 2021 16:26:03 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "id": 1976110810,
+    "category": {
+        "id": 1,
+        "name": "MIGUEL10"
+    },
+    "name": "Toto",
+    "photoUrls": [
+        "string"
+    ],
+    "tags": [
+        {
+            "id": 2021,
+            "name": "pqp"
+        }
+    ],
+    "status": "sold"
+}
+Request method:	GET
+Request URI:	https://petstore.swagger.io/v2/pet/1976110810
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Sun, 15 Aug 2021 16:26:06 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "id": 1976110810,
+    "category": {
+        "id": 1,
+        "name": "MIGUEL10"
+    },
+    "name": "Toto",
+    "photoUrls": [
+        "string"
+    ],
+    "tags": [
+        {
+            "id": 2021,
+            "name": "pqp"
+        }
+    ],
+    "status": "available"
+}
+O token é MIGUEL10
+Request method:	DELETE
+Request URI:	https://petstore.swagger.io/v2/pet/1976110810
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Sun, 15 Aug 2021 16:26:07 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "1976110810"
+}
+Request method:	POST
+Request URI:	https://petstore.swagger.io/v2/pet
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": 1976110810,
+    "category": {
+        "id": 1,
+        "name": "MIGUEL10"
+    },
+    "name": "Toto",
+    "photoUrls": [
+        "string"
+    ],
+    "tags": [
+        {
+            "id": 2021,
+            "name": "pqp"
+        }
+    ],
+    "status": "available"
+}
+HTTP/1.1 200 OK
+Date: Sun, 15 Aug 2021 16:26:08 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "id": 1976110810,
+    "category": {
+        "id": 1,
+        "name": "MIGUEL10"
+    },
+    "name": "Toto",
+    "photoUrls": [
+        "string"
+    ],
+    "tags": [
+        {
+            "id": 2021,
+            "name": "pqp"
+        }
+    ],
+    "status": "available"
+}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

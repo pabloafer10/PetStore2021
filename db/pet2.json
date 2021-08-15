@@ -1,0 +1,18 @@
+{
+  "id": 1976110810,
+  "category": {
+    "id": 1,
+    "name": "MIGUEL10"
+  },
+  "name": "Toto",
+  "photoUrls": [
+    "string"
+  ],
+  "tags": [
+    {
+      "id": 2021,
+      "name": "pqp"
+    }
+  ],
+  "status": "sold"
+}
